@@ -19,7 +19,6 @@ steps:
     inputs:
       versionSpec: '$(python.version)'      
     displayName: 'Use Python $(python.version)'    
-    name: fedora
 
   - script: |
       python -m pip install --upgrade pip
