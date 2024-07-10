@@ -4,6 +4,7 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
+
 strategy:
   matrix:
     Python310:
@@ -16,8 +17,9 @@ strategy:
 steps:
   - task: UsePythonVersion@0
     inputs:
-      versionSpec: '$(python.version)'
-    displayName: 'Use Python $(python.version)'
+      versionSpec: '$(python.version)'      
+    displayName: 'Use Python $(python.version)'    
+    name: fedora
 
   - script: |
       python -m pip install --upgrade pip
