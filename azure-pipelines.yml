@@ -3,7 +3,7 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-  name: local
+  name: WINDEV2404EVAL
 
 strategy:
   matrix:
