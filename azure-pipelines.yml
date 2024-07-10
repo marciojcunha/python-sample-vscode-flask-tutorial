@@ -1,9 +1,8 @@
 trigger:
 - main
 
-pool:
+pool: fedora
   #vmImage: ubuntu-latest
-  pool:  fedora
 
 
 strategy:
