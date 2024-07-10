@@ -7,8 +7,8 @@ pool:
 
 strategy:
   matrix:
-    Python310:
-      python.version: '3.8'
+    Python312:
+      python.version: '3.12'
 
 steps:
   - task: UsePythonVersion@0
